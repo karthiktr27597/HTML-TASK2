@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <form class="survey-form" method="post" action="#">
+        <label><b>Name</b><span class="required">*</span></label><br>
+        <label class="firstname">
+        <input type="text" placeholder="firstname" ><br>
+        First</label>
+
+        <label class="lastname">
+        <input type="text" placeholder="lastname" ><br>
+        Last</label>
+        <br><br>
+
+        <label><b>Email</b><span class="required">*</span><br>
+        <input type="text" placeholder="email" class="Email">
+        </label>
+        <br><br>
+
+        <label><b>Your Experience</b><span class="required">*</span></label>  
+           <div class="star">
+                <input type="radio" name="value1">
+                <input type="radio" name="value1">
+                <input type="radio" name="value1">
+                <input type="radio" name="value1">
+                <input type="radio" name="value1">
+          </div><br>
+        <p>Overall,how would you rate you experience with us?</p>
+
+        <label><b>How satisfied are you with</b><span class="required">*</span></label><br>
+        <table class="table-1">
+         <tr>
+            <th> </th>
+            <th>Very Unsatisfied</th>
+            <th>Unsatisfied</th>
+            <th>Neutral</th>
+            <th>Satisfied</th>
+            <th>Very Satisfied</th>
+         </tr>
+          <tb>
+            <tr>
+                <td>Purchase</td>
+                <td><input type="radio" name="feedback1"></td>
+                <td><input type="radio" name="feedback1"></td>
+                <td><input type="radio" name="feedback1"></td>
+                <td><input type="radio" name="feedback1"></td>
+                <td><input type="radio" name="feedback1"></td>
+                </tr>
+            <tr>
+                <td>Service</td>
+                <td><input type="radio" name="feedback2"></td>
+                <td><input type="radio" name="feedback2"></td>
+                <td><input type="radio" name="feedback2"></td>
+                <td><input type="radio" name="feedback2"></td>
+                <td><input type="radio" name="feedback2"></td>
+            </tr>
+            <tr>
+                <td>Company Overall</td>
+                <td><input type="radio" name="feedback3"></td>
+                <td><input type="radio" name="feedback3"></td>
+                <td><input type="radio" name="feedback3"></td>
+                <td><input type="radio" name="feedback3"></td>
+                <td><input type="radio" name="feedback3"></td>
+            </tr>
+          </tb>
+        </table>
+        <br>
+        <label><b>How likely are you to</b><span class="required">*</span></label><br>
+        <table class="table-2">
+            <tr>
+                <th> </th>
+                <th>Very Unlikely</th>
+                <th>Unlikely</th>
+                <th>Neutral</th>
+                <th>Likely</th>
+                <th>Very Likely</th>
+            </tr>
+            <tb>
+              <tr>
+                  <td>Buy for us again</td>
+                  <td><input type="radio" name="feedback4"></td>
+                  <td><input type="radio" name="feedback4"></td>
+                  <td><input type="radio" name="feedback4"></td>
+                  <td><input type="radio" name="feedback4"></td>
+                  <td><input type="radio" name="feedback4"></td>
+                  </tr>
+              <tr>
+                  <td>Recommend our product to others</td>
+                  <td><input type="radio" name="feedback5"></td>
+                  <td><input type="radio" name="feedback5"></td>
+                  <td><input type="radio" name="feedback5"></td>
+                  <td><input type="radio" name="feedback5"></td>
+                  <td><input type="radio" name="feedback5"></td>
+              </tr>
+              <tr>
+                  <td>Recommend our product to others</td>
+                  <td><input type="radio" name="feedback6"></td>
+                  <td><input type="radio" name="feedback6"></td>
+                  <td><input type="radio" name="feedback6"></td>
+                  <td><input type="radio" name="feedback6"></td>
+                  <td><input type="radio" name="feedback6"></td>
+              </tr>
+            </tb>
+        </table>
+        <br>
+        <label><b>Addition comments or suggestions</b></label><br>
+        <textarea></textarea><br><br>
+        <button type="submit">Submit</button>
+        
+    </form>
+    
+</body>
+</html>

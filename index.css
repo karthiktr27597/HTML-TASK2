@@ -1,0 +1,93 @@
+.survey-form .firstname{
+    margin-right: 20px;
+}
+.required{
+    color: red;
+}
+
+.survey-form .Email{
+    width: 29.5vw;
+}
+
+/* .rating{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+} */
+
+.star{
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+
+.star input{
+    position:relative;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    appearance: none;
+    -webkit-apperance: none;
+}
+
+.star input::before{
+    content: '\f005';
+    position: absolute;
+    font-family: fontAwesome;
+    font-size: 25px;
+    color: #111;
+    transition: 0.5s;
+}
+
+.star input:hover ~ input::before,
+.star input:hover::before,
+.star input:checked ~ input::before,
+.star input:checked::before
+{
+    color: orange;
+}
+
+p{
+   font-size: small;
+}
+
+.table-1, .table-2{
+    width: 80%;
+}
+
+
+th, td{
+    /* border: 1px solid orchid; */
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+
+}
+
+tr, td:nth-child(1){
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+textarea{
+    width: 80%;
+    height: 120px;
+}
+
+button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:10px;
+}
+
+tr, td:first-child{
+    text-align: left;
+    width: 200px;
+    margin-right:100px;
+}
+
+
+
+
+
+
